@@ -23,7 +23,9 @@ export default function BasicModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>view details</Button>
+      <Button onClick={handleOpen} style={{ color: "white" }}>
+        View Card
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -31,10 +33,19 @@ export default function BasicModal() {
         aria-describedby='modal-modal-description'>
         <Box sx={style}>
           <Typography id='modal-modal-title' variant='h6' component='h2'>
-            Text in a modal
+            Strength 100
           </Typography>
-          <Typography id='modal-modal-description' sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+          <Typography id='modal-modal-title' variant='h6' component='h2'>
+            Special Attack 222
+          </Typography>
+          <Typography id='modal-modal-title' variant='h6' component='h2'>
+            Defense 444
+          </Typography>
+          <Typography id='modal-modal-title' variant='h6' component='h2'>
+            Attack 412
+          </Typography>
+          <Typography id='modal-modal-title' variant='h6' component='h2'>
+            Hp 666
           </Typography>
         </Box>
       </Modal>

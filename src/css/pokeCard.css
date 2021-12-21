@@ -1,0 +1,21 @@
+.menu-item {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(18, 250, 192);
+  display: flex;
+}
+.img-sec {
+  width: 100%;
+  height: 80%;
+}
+.img-sec img {
+  width: 8rem;
+  height: 8rem;
+}
+.name {
+  font-size: 1.2rem sans-serif;
+  margin-bottom: 0.5rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
